@@ -1,6 +1,4 @@
-package ru.yandex.practicum;
-
-import ru.yandex.practicum.model.Discountable;
+package ru.yandex.practicum.model;
 
 public abstract class Food implements Discountable {
     protected int amount;

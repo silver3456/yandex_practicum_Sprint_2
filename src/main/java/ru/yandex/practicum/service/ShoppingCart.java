@@ -1,6 +1,6 @@
 package ru.yandex.practicum.service;
 
-import ru.yandex.practicum.Food;
+import ru.yandex.practicum.model.Food;
 
 public class ShoppingCart {
 

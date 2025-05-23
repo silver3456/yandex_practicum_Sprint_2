@@ -1,7 +1,5 @@
 package ru.yandex.practicum.model;
 
-import ru.yandex.practicum.Food;
-
 import static ru.yandex.practicum.model.constants.Colour.*;
 import static ru.yandex.practicum.model.constants.Discount.*;
 
@@ -16,10 +14,6 @@ public class Apple extends Food {
 
     @Override
     public double getDiscount() {
-        if (colour.equals(RED)) {
-            return APPLE_DISCOUNT;
-        } else {
-            return 0;
-        }
+        return colour.equals(RED) ? APPLE_DISCOUNT : DEFAULT_DISCOUNT;
     }
 }
